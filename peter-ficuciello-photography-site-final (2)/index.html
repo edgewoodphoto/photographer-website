@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Peter Ficuciello Photography | Event & Portrait Photography, New Jersey</title>
+<meta name="description" content="Peter Ficuciello Photography — event and portrait photography in New Jersey. Sports, galas, corporate events, milestone celebrations, and senior banners." />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="container bar">
+      <a href="index.html" class="brand">
+        <img src="images/logo.png" alt="Edgewood Photo logo" onerror="this.style.display='none'">
+        <span>PETER FICUCIELLO</span>
+      </a>
+      <div class="nav-links">
+            <a href="#gallery">Portfolio</a>
+            <a href="#about">About</a>
+            <a href="#pictime">Your Photos</a>
+            <a href="#contact">Contact</a>
+        <div class="services-dropdown">
+          <button type="button">Services ▾</button>
+          <div class="services-dropdown-menu">
+          <a href="services/sports.html">Sports Photography</a>
+          <a href="services/senior-banners.html" class="featured">★ Senior Banners</a>
+          <a href="services/portraits.html">Portrait Sessions</a>
+          <a href="services/corporate.html">Corporate & Gala</a>
+          <a href="services/milestones.html">Milestone Celebrations</a>
+          </div>
+        </div>
+        
+      </div>
+      <button class="mobile-toggle" onclick="document.getElementById('mobileMenu').classList.toggle('open')" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="container">
+        <a href="#gallery">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#pictime">Your Photos</a>
+        <a href="#contact">Contact</a>
+        <details>
+          <summary class="section-label" style="cursor:pointer;">Services</summary>
+          <div style="display:flex;flex-direction:column;gap:0.75rem;margin-top:0.75rem;">
+        <a href="services/sports.html" style="padding-left:1rem;">Sports Photography</a>
+        <a href="services/senior-banners.html" style="padding-left:1rem;">★ Senior Banners</a>
+        <a href="services/portraits.html" style="padding-left:1rem;">Portrait Sessions</a>
+        <a href="services/corporate.html" style="padding-left:1rem;">Corporate & Gala</a>
+        <a href="services/milestones.html" style="padding-left:1rem;">Milestone Celebrations</a>
+          </div>
+        </details>
+        
+      </div>
+    </div>
+  </nav>
+  <div class="nav-spacer"></div>
+
+  <section class="home-hero" id="hero">
+    <div class="home-hero-bg" style="background-image:url('images/venice-hero.jpg');"></div>
+    <div class="home-hero-overlay"></div>
+    <div class="home-hero-content">
+      <p class="section-label" style="color:var(--gold-light);">Event &amp; Portrait Photography</p>
+      <h1>Moments <em>Crafted</em><br>Into Legacy</h1>
+      <p class="section-label" style="color:rgba(255,255,255,0.7);">Sports &middot; Galas &middot; Corporate &middot; Celebrations</p>
+      <div class="hero-actions">
+        <a href="#gallery" class="btn-gold">View Portfolio</a>
+        <a href="#pictime" class="btn-outline-gold">Access Your Photos</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <p class="section-label" style="color:rgba(255,255,255,0.5);">Scroll</p>
+      <div class="line"></div>
+    </div>
+  </section>
+
+  <section id="services" style="background:white;padding:6rem 0;">
+    <div class="container">
+      <div class="services-top">
+        <div>
+          <p class="section-label" style="margin-bottom:0.75rem;">What I Offer</p>
+          <h2 class="section-title" style="margin-bottom:0.5rem;">Services &amp; <em style="font-style:italic;">Packages</em></h2>
+          <div class="gold-rule"></div>
+        </div>
+        <div><div class="placeholder-tile" style="min-height:260px;"><p>Photo<br>Coming Soon</p></div></div>
+      </div>
+      <div class="services-cards">
+        <a href="services/sports.html" class="service-card">
+          <p class="num">01</p>
+          <h3>Sports Photography</h3>
+          <p class="desc">Dynamic action coverage of games, tournaments, and athletic events. Fast turnaround with sharp, high-energy images that capture the intensity of competition.</p>
+          <p class="view-link">View Gallery &rarr;</p>
+        </a>
+        <a href="services/corporate.html" class="service-card">
+          <p class="num">02</p>
+          <h3>Corporate & Gala Events</h3>
+          <p class="desc">Professional documentation of conferences, award ceremonies, galas, and company milestones. Quiet, unobtrusive coverage that preserves the prestige of your event.</p>
+          <p class="view-link">View Gallery &rarr;</p>
+        </a>
+        <a href="services/milestones.html" class="service-card">
+          <p class="num">03</p>
+          <h3>Milestone Celebrations</h3>
+          <p class="desc">Birthdays, anniversaries, graduations, and family reunions. Candid and posed coverage that tells the full story of your most cherished occasions.</p>
+          <p class="view-link">View Gallery &rarr;</p>
+        </a>
+        <a href="services/portraits.html" class="service-card">
+          <p class="num">04</p>
+          <h3>Portrait Sessions</h3>
+          <p class="desc">Individual, couple, and family portraits in studio or on location. Natural light and editorial styling that reveals authentic character.</p>
+          <p class="view-link">View Gallery &rarr;</p>
+        </a>
+        <a href="services/senior-banners.html" class="service-card">
+          <p class="num">05</p>
+          <h3>Senior Banners</h3>
+          <p class="desc">Custom large-format banners celebrating your senior athlete. Studio session included — bold graphics, school colors, and a keepsake your family will treasure.</p>
+          <p class="view-link">View Gallery &rarr;</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" style="background:var(--cream);padding:6rem 0;">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-label">Selected Work</p>
+        <h2 class="section-title">The Portfolio</h2>
+        <div class="gold-rule" style="margin-top:1rem;"></div>
+      </div>
+      <div class="masonry-grid">
+          <div class="masonry-item"><div class="placeholder-tile" style="min-height:180px;"><p>Photo<br>Coming Soon</p></div></div>
+          <div class="masonry-item"><div class="placeholder-tile" style="min-height:180px;"><p>Photo<br>Coming Soon</p></div></div>
+          <div class="masonry-item"><div class="placeholder-tile" style="min-height:180px;"><p>Photo<br>Coming Soon</p></div></div>
+          <div class="masonry-item"><div class="placeholder-tile" style="min-height:180px;"><p>Photo<br>Coming Soon</p></div></div>
+          <div class="masonry-item"><div class="placeholder-tile" style="min-height:180px;"><p>Photo<br>Coming Soon</p></div></div>
+          <div class="masonry-item"><div class="placeholder-tile" style="min-height:180px;"><p>Photo<br>Coming Soon</p></div></div>
+          <div class="masonry-item"><div class="placeholder-tile" style="min-height:180px;"><p>Photo<br>Coming Soon</p></div></div>
+          <div class="masonry-item"><div class="placeholder-tile" style="min-height:180px;"><p>Photo<br>Coming Soon</p></div></div>
+          <div class="masonry-item"><div class="placeholder-tile" style="min-height:180px;"><p>Photo<br>Coming Soon</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" style="background:var(--cream-dark);padding:6rem 0;">
+    <div class="container about-flex">
+      <div>
+        <p class="section-label" style="margin-bottom:0.75rem;">The Photographer</p>
+        <h2 class="section-title" style="margin-bottom:0.5rem;">About <em style="font-style:italic;">Peter</em></h2>
+        <div class="gold-rule" style="margin-bottom:2rem;"></div>
+        <p style="font-size:0.9rem;color:var(--charcoal-light);line-height:1.9;font-weight:300;margin-bottom:1.5rem;">I am a passionate event photographer based in New Jersey, dedicated to capturing the authentic emotion and energy that makes every occasion unique. With an eye trained on the decisive moment, I work unobtrusively so your guests feel at ease and your memories look effortless.</p>
+        <p style="font-size:0.9rem;color:var(--charcoal-light);line-height:1.9;font-weight:300;margin-bottom:2rem;">My approach blends photojournalistic candor with a refined aesthetic — resulting in images that are both timeless and deeply personal. Every gallery I deliver is carefully edited to reflect the mood, light, and spirit of your event.</p>
+        <div class="stats-row">
+          <div class="stat"><p class="num">8+</p><p class="section-label">Years Experience</p></div>
+          <div class="stat"><p class="num">400+</p><p class="section-label">Events Covered</p></div>
+          <div class="stat"><p class="num">100%</p><p class="section-label">Client Satisfaction</p></div>
+        </div>
+      </div>
+      <div>
+        <div class="about-photo-frame"><div class="placeholder-tile" style="min-height:340px;"><p>Photo<br>Coming Soon</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pictime" style="background:var(--cream);padding:6rem 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
+    <div class="container" style="max-width:680px;text-align:center;">
+      <p class="section-label" style="margin-bottom:0.75rem;">Client Gallery Access</p>
+      <h2 class="section-title" style="margin-bottom:0.5rem;">Your Photos <em style="font-style:italic;">Are Ready</em></h2>
+      <div class="gold-rule" style="margin-bottom:2rem;"></div>
+      <p style="font-size:0.9rem;color:var(--charcoal-light);line-height:1.9;font-weight:300;margin-bottom:2rem;">All client galleries are hosted on Pic-Time — a premium platform where you can view, download, share, and order prints of your photos. Simply click below and enter your unique gallery link or access code provided after your event.</p>
+      <div class="hero-actions" style="justify-content:center;margin-bottom:2.5rem;">
+        <a href="https://edgewoodphoto.pic-time.com/client" target="_blank" rel="noopener noreferrer" class="btn-gold">Visit My Pic-Time Gallery</a>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:1.5rem;text-align:left;max-width:640px;margin:0 auto;">
+        <div style="display:flex;gap:0.75rem;"><span class="section-label" style="color:var(--gold);flex-shrink:0;">01</span><p style="font-size:0.8rem;color:var(--charcoal-light);line-height:1.7;font-weight:300;margin:0;">Receive your gallery link via email after your event</p></div>
+        <div style="display:flex;gap:0.75rem;"><span class="section-label" style="color:var(--gold);flex-shrink:0;">02</span><p style="font-size:0.8rem;color:var(--charcoal-light);line-height:1.7;font-weight:300;margin:0;">Click the button above or visit edgewoodphoto.pic-time.com</p></div>
+        <div style="display:flex;gap:0.75rem;"><span class="section-label" style="color:var(--gold);flex-shrink:0;">03</span><p style="font-size:0.8rem;color:var(--charcoal-light);line-height:1.7;font-weight:300;margin:0;">Enter your access code to view, download, and order prints</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" style="background:white;padding:6rem 0;">
+    <div class="container" style="max-width:720px;">
+      <div style="text-align:center;margin-bottom:3rem;">
+        <p class="section-label" style="margin-bottom:0.75rem;">Get in Touch</p>
+        <h2 class="section-title" style="margin-bottom:0.5rem;">Book Your Session</h2>
+        <div class="gold-rule" style="margin-top:1rem;"></div>
+      </div>
+      <div id="formWrap">
+        <form class="contact-form" id="bookingForm">
+          <div class="form-row">
+            <div><label>Your Name</label><input type="text" required name="name" placeholder="Jane Smith"></div>
+            <div><label>Email Address</label><input type="email" required name="email" placeholder="jane@example.com"></div>
+          </div>
+          <div class="form-row">
+            <div>
+              <label>Event Type</label>
+              <select name="eventType">
+                <option value="">Select an event type</option>
+                <option value="sports">Sports Event</option>
+                <option value="corporate">Corporate / Gala</option>
+                <option value="milestone">Milestone Celebration</option>
+                <option value="portrait">Portrait Session</option>
+              </select>
+            </div>
+            <div><label>Event Date</label><input type="date" name="eventDate"></div>
+          </div>
+          <div><label>Tell Me About Your Event</label><textarea rows="5" name="message" placeholder="Venue, guest count, vision..."></textarea></div>
+          <p id="formError" style="display:none;font-size:0.875rem;text-align:center;color:#c0392b;"></p>
+          <div style="text-align:center;margin-top:1rem;">
+            <button type="submit" class="btn-gold" id="submitBtn">Send Inquiry</button>
+          </div>
+        </form>
+        <div id="formSuccess" style="display:none;text-align:center;padding:3rem 0;">
+          <p style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;color:var(--gold);font-weight:300;margin-bottom:0.75rem;">Thank You</p>
+          <p style="color:var(--charcoal-light);font-size:0.9rem;">Your inquiry has been received. I'll be in touch within 24 hours.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="site-footer">
+    <div class="container inner">
+      <div>
+        <p class="brand-name">PETER FICUCIELLO</p>
+        <p class="tagline">Event &amp; Portrait Photography</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/edgewood_photo" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://www.facebook.com/edgewoodphoto" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="https://edgewoodphoto.pic-time.com/client" target="_blank" rel="noopener noreferrer">Pic-Time</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Edgewoodphoto LLC. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('bookingForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const btn = document.getElementById('submitBtn');
+      const errEl = document.getElementById('formError');
+      errEl.style.display = 'none';
+      btn.textContent = 'Sending…';
+      btn.disabled = true;
+      const fd = new FormData(e.target);
+      try {
+        const res = await fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify({
+            access_key: 'a5e743cf-25fc-44ed-8944-4da657a14382',
+            subject: 'New Booking Inquiry - Edgewood Photo',
+            name: fd.get('name'), email: fd.get('email'),
+            eventType: fd.get('eventType'), eventDate: fd.get('eventDate'),
+            message: fd.get('message'),
+          })
+        });
+        const data = await res.json();
+        if (data.success) {
+          try {
+            await fetch('https://ntfy.sh/edgewood-photo-bookings-pf9731', {
+              method: 'POST',
+              headers: { 'Title': 'New Booking Inquiry!', 'Priority': 'high', 'Tags': 'camera,bell', 'Content-Type': 'text/plain' },
+              body: 'Name: ' + fd.get('name') + '\nEmail: ' + fd.get('email') + '\nEvent: ' + fd.get('eventType') + '\nDate: ' + fd.get('eventDate') + '\nMessage: ' + fd.get('message'),
+            });
+          } catch (ignored) { /* ntfy failure is silent — Web3Forms already succeeded */ }
+          document.getElementById('bookingForm').style.display = 'none';
+          document.getElementById('formSuccess').style.display = 'block';
+        } else {
+          errEl.textContent = 'Something went wrong. Please try again or email pete@edgewoodphoto.com directly.';
+          errEl.style.display = 'block';
+        }
+      } catch (err) {
+        errEl.textContent = 'Network error. Please try again or email pete@edgewoodphoto.com directly.';
+        errEl.style.display = 'block';
+      } finally {
+        btn.textContent = 'Send Inquiry';
+        btn.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>
